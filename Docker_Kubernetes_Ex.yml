@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: email-client
+spec:
+  selector:
+    matchLabels:
+      app: email-client
+  template:
+    metadata:
+      labels:
+        app: email-client
+        tag: production
+    spec:
+      containers:
+      - name: email-client
+        image: collindrake/postman
+        imagePullPolicy: Always
+        env:
+        - name: EMAIL
+          value: websockettesting503@gmail.com
+        - name: PASSWORD
+          value: iwmzaxcczhhksbzo
+        - name: OPENAI_API_KEY
+          value: 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
+        - name: OPENAI_ORGANIZATION
+          value: org-qcHPiKIimtg6ssjx0Xla5AGH

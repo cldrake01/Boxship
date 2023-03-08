@@ -1,0 +1,12 @@
+apiVersion: v1
+kind:
+metadata:
+  name: pythonproject
+build:
+  artifacts:
+  - image: collindrake/postman
+    docker:
+      dockerfile: Dockerfile
+manifests:
+  rawYaml:
+  - Docker_Kubernetes_Ex.yml
