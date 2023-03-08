@@ -1,0 +1,32 @@
+{
+  "name": "framer-motion-scroll",
+  "version": "1.0.0",
+  "description": "A live, editable example of the Framer Motion API",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@types/lodash": "4.14.165",
+    "framer-motion": "2.9.4",
+    "lodash": "4.17.20",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
