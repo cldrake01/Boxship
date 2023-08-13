@@ -1,0 +1,948 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:2:1-118:12
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/9ae31da45bd8f9a5486b92418be7ad02/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/871176a25d6e5c8f54268f6e63001eb7/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/830b85b7f02714dc376b0ec81504077a/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/1d9d5dbefa02cb61dbaacef9ce44e7f1/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/collindrake/.gradle/caches/transforms-3/2efb3eaa7034ce0d4c06998da70607d8/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/collindrake/.gradle/caches/transforms-3/6970a2fc7b8a00916abea4fdc9b876a4/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:face-detection:16.1.5] /Users/collindrake/.gradle/caches/transforms-3/ac2eded31409320f997db0b73943f212/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/07889dc67cbca1939d5e662926300cae/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/59a85ca3daf6aedcaca0de9d5c89b189/transformed/jetified-text-recognition-chinese-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/3b4e7baa21265e139a82ee0455c658ca/transformed/jetified-text-recognition-devanagari-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/b01ac71c4caec94c9e795d3fc0b26e98/transformed/jetified-text-recognition-japanese-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/fc15f34dae00edb98c9b4b3a94fde5e8/transformed/jetified-text-recognition-korean-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:camera:16.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/5f3c9f6b1e09a908c4474b777a179a04/transformed/jetified-camera-16.0.0-beta3/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/69e91b39d4280d9e54872d2f60a8b751/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/078dcfad70a5057463e1e0ab9d5bc8a2/transformed/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/50c7c47cd7b302c6a7032bd14d5c7710/transformed/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/04f3cd19d66b976d7bac31613d97bbec/transformed/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/95e05c936190a967ecfec62eadd134a5/transformed/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/collindrake/.gradle/caches/transforms-3/b06f47e373c37bc461ef14dad2fc87be/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/collindrake/.gradle/caches/transforms-3/e3be4c992582a51a50979f6e904750fe/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/25dfa0058cb8a0a01fddb02d3a87e185/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/collindrake/.gradle/caches/transforms-3/bfabafb6de8cbd5f6a268f50b26bd01f/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/aca6b95191e340a90bc2926d4ff50b08/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/84b991b180a288c8a3e5d8f52d14e8d2/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-chinese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/6f15e2ad955c9282a663e8ceac187fad/transformed/jetified-play-services-mlkit-text-recognition-chinese-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-devanagari:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/bd699ba9da5b7bcb50a603d1ba995655/transformed/jetified-play-services-mlkit-text-recognition-devanagari-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-japanese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/9250d428fcc4592d7f5c31f95f65d5b7/transformed/jetified-play-services-mlkit-text-recognition-japanese-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-korean:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/d2d08893778b46a0ed2090401360e013/transformed/jetified-play-services-mlkit-text-recognition-korean-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/79e58168c5f90928815235b5cc2964f0/transformed/jetified-image-labeling-default-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-custom-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/5e419c4f828bd96879865efe6c2955be/transformed/jetified-image-labeling-custom-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/collindrake/.gradle/caches/transforms-3/de0c726013d51b35fd1432cebc5f1708/transformed/jetified-image-labeling-common-18.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/collindrake/.gradle/caches/transforms-3/4848775391e9d82c21d8b95af82fd142/transformed/jetified-mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/collindrake/.gradle/caches/transforms-3/7106f7b64ca76405767d8dbfeeab8b7b/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/collindrake/.gradle/caches/transforms-3/266607879d4175c92f90d569a3422ce0/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/ac83150fe96da5e3a1dd630b372620b9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/b3b614bad0971956bbd533ca0444b055/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/8172a00b3ef625a4483736584aa88d30/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/fd8e3b77fecf9bf87718b1b0139fbfda/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/10467d6f6d699b49568735f2cbd347da/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/164e0205142a666fe2d217670d2b97b4/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/collindrake/.gradle/caches/transforms-3/d4ab2893766f3ce6cc1f4dd03a3169ea/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/collindrake/.gradle/caches/transforms-3/9c0f25974b96f3d5bb8d170177f53f27/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/collindrake/.gradle/caches/transforms-3/4f926294b703c64b871e04249abe9ab3/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/d0e5b52ee3ae5363fe09b7036fb83cff/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/48a5545428e37ae3a146c76d658659bd/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/b2be4d206b8503716d8501fc5fda3278/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/collindrake/.gradle/caches/transforms-3/cfbf16f3bae539c0bcd309ab133a58dd/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/92059f70be704df472c521854bce2e81/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/08e9ea772e4941e84293a2692a8a1f41/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/5aad2ef512a20cfa75886f8d0e5195d3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/75fdd1a07bd6e30947651174cbae90a2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/6502fa803ac645f07ced84e5f9616269/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/collindrake/.gradle/caches/transforms-3/6b5a46b6aff022e021b40309e80c0c3b/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/cc3edb4b457dc33f796f210bf32db336/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/fdd0eac78a4d8e1168767b79a6829bd2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/efda8f3fa7746edb278a4a27315aa9d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/bd13f58c731e042c36517d5ff98455a7/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/collindrake/.gradle/caches/transforms-3/de5f04557ee9eaa6e083436f6a2714b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/a84a3b7b02fc3990a182e609d2d10f76/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/b1c42b4bf16d7f07f89fbd9b5b042d15/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/7dd61898777d6cbd9d883627c0ab973a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/5a74a231bf03de950e8705c72caa07f5/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/e3573e04a4fc82d784ba7d1b1ceabaee/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/14a892abcca591a603cdd894f901008e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/194e0220698603b0c96c6e082f1d7744/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:3:5-63
+	android:installLocation
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:5:5-35
+uses-sdk
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:11:5-14:63
+INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:11:5-14:63
+INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:11:5-14:63
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/9ae31da45bd8f9a5486b92418be7ad02/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/9ae31da45bd8f9a5486b92418be7ad02/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/871176a25d6e5c8f54268f6e63001eb7/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/871176a25d6e5c8f54268f6e63001eb7/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/830b85b7f02714dc376b0ec81504077a/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/830b85b7f02714dc376b0ec81504077a/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/1d9d5dbefa02cb61dbaacef9ce44e7f1/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/1d9d5dbefa02cb61dbaacef9ce44e7f1/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/collindrake/.gradle/caches/transforms-3/2efb3eaa7034ce0d4c06998da70607d8/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/collindrake/.gradle/caches/transforms-3/2efb3eaa7034ce0d4c06998da70607d8/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/collindrake/.gradle/caches/transforms-3/6970a2fc7b8a00916abea4fdc9b876a4/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/collindrake/.gradle/caches/transforms-3/6970a2fc7b8a00916abea4fdc9b876a4/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.5] /Users/collindrake/.gradle/caches/transforms-3/ac2eded31409320f997db0b73943f212/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.5] /Users/collindrake/.gradle/caches/transforms-3/ac2eded31409320f997db0b73943f212/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/07889dc67cbca1939d5e662926300cae/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/07889dc67cbca1939d5e662926300cae/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/59a85ca3daf6aedcaca0de9d5c89b189/transformed/jetified-text-recognition-chinese-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/59a85ca3daf6aedcaca0de9d5c89b189/transformed/jetified-text-recognition-chinese-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/3b4e7baa21265e139a82ee0455c658ca/transformed/jetified-text-recognition-devanagari-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/3b4e7baa21265e139a82ee0455c658ca/transformed/jetified-text-recognition-devanagari-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/b01ac71c4caec94c9e795d3fc0b26e98/transformed/jetified-text-recognition-japanese-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/b01ac71c4caec94c9e795d3fc0b26e98/transformed/jetified-text-recognition-japanese-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/fc15f34dae00edb98c9b4b3a94fde5e8/transformed/jetified-text-recognition-korean-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/fc15f34dae00edb98c9b4b3a94fde5e8/transformed/jetified-text-recognition-korean-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:camera:16.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/5f3c9f6b1e09a908c4474b777a179a04/transformed/jetified-camera-16.0.0-beta3/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:camera:16.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/5f3c9f6b1e09a908c4474b777a179a04/transformed/jetified-camera-16.0.0-beta3/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/69e91b39d4280d9e54872d2f60a8b751/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/69e91b39d4280d9e54872d2f60a8b751/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/078dcfad70a5057463e1e0ab9d5bc8a2/transformed/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/078dcfad70a5057463e1e0ab9d5bc8a2/transformed/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/50c7c47cd7b302c6a7032bd14d5c7710/transformed/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/50c7c47cd7b302c6a7032bd14d5c7710/transformed/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/04f3cd19d66b976d7bac31613d97bbec/transformed/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/04f3cd19d66b976d7bac31613d97bbec/transformed/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/95e05c936190a967ecfec62eadd134a5/transformed/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/collindrake/.gradle/caches/transforms-3/95e05c936190a967ecfec62eadd134a5/transformed/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/collindrake/.gradle/caches/transforms-3/b06f47e373c37bc461ef14dad2fc87be/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/collindrake/.gradle/caches/transforms-3/b06f47e373c37bc461ef14dad2fc87be/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/collindrake/.gradle/caches/transforms-3/e3be4c992582a51a50979f6e904750fe/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/collindrake/.gradle/caches/transforms-3/e3be4c992582a51a50979f6e904750fe/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/25dfa0058cb8a0a01fddb02d3a87e185/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/25dfa0058cb8a0a01fddb02d3a87e185/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/collindrake/.gradle/caches/transforms-3/bfabafb6de8cbd5f6a268f50b26bd01f/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/collindrake/.gradle/caches/transforms-3/bfabafb6de8cbd5f6a268f50b26bd01f/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/aca6b95191e340a90bc2926d4ff50b08/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/aca6b95191e340a90bc2926d4ff50b08/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/84b991b180a288c8a3e5d8f52d14e8d2/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/84b991b180a288c8a3e5d8f52d14e8d2/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-chinese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/6f15e2ad955c9282a663e8ceac187fad/transformed/jetified-play-services-mlkit-text-recognition-chinese-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-chinese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/6f15e2ad955c9282a663e8ceac187fad/transformed/jetified-play-services-mlkit-text-recognition-chinese-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-devanagari:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/bd699ba9da5b7bcb50a603d1ba995655/transformed/jetified-play-services-mlkit-text-recognition-devanagari-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-devanagari:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/bd699ba9da5b7bcb50a603d1ba995655/transformed/jetified-play-services-mlkit-text-recognition-devanagari-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-japanese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/9250d428fcc4592d7f5c31f95f65d5b7/transformed/jetified-play-services-mlkit-text-recognition-japanese-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-japanese:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/9250d428fcc4592d7f5c31f95f65d5b7/transformed/jetified-play-services-mlkit-text-recognition-japanese-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-korean:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/d2d08893778b46a0ed2090401360e013/transformed/jetified-play-services-mlkit-text-recognition-korean-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-korean:16.0.0] /Users/collindrake/.gradle/caches/transforms-3/d2d08893778b46a0ed2090401360e013/transformed/jetified-play-services-mlkit-text-recognition-korean-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/79e58168c5f90928815235b5cc2964f0/transformed/jetified-image-labeling-default-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/79e58168c5f90928815235b5cc2964f0/transformed/jetified-image-labeling-default-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/5e419c4f828bd96879865efe6c2955be/transformed/jetified-image-labeling-custom-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom-common:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/5e419c4f828bd96879865efe6c2955be/transformed/jetified-image-labeling-custom-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/collindrake/.gradle/caches/transforms-3/de0c726013d51b35fd1432cebc5f1708/transformed/jetified-image-labeling-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/collindrake/.gradle/caches/transforms-3/de0c726013d51b35fd1432cebc5f1708/transformed/jetified-image-labeling-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/collindrake/.gradle/caches/transforms-3/4848775391e9d82c21d8b95af82fd142/transformed/jetified-mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/collindrake/.gradle/caches/transforms-3/4848775391e9d82c21d8b95af82fd142/transformed/jetified-mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/collindrake/.gradle/caches/transforms-3/7106f7b64ca76405767d8dbfeeab8b7b/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/collindrake/.gradle/caches/transforms-3/7106f7b64ca76405767d8dbfeeab8b7b/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/collindrake/.gradle/caches/transforms-3/266607879d4175c92f90d569a3422ce0/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/collindrake/.gradle/caches/transforms-3/266607879d4175c92f90d569a3422ce0/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/ac83150fe96da5e3a1dd630b372620b9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/ac83150fe96da5e3a1dd630b372620b9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/b3b614bad0971956bbd533ca0444b055/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/b3b614bad0971956bbd533ca0444b055/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/8172a00b3ef625a4483736584aa88d30/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/8172a00b3ef625a4483736584aa88d30/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/fd8e3b77fecf9bf87718b1b0139fbfda/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/fd8e3b77fecf9bf87718b1b0139fbfda/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/10467d6f6d699b49568735f2cbd347da/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/10467d6f6d699b49568735f2cbd347da/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/164e0205142a666fe2d217670d2b97b4/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/164e0205142a666fe2d217670d2b97b4/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/collindrake/.gradle/caches/transforms-3/d4ab2893766f3ce6cc1f4dd03a3169ea/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/collindrake/.gradle/caches/transforms-3/d4ab2893766f3ce6cc1f4dd03a3169ea/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/collindrake/.gradle/caches/transforms-3/9c0f25974b96f3d5bb8d170177f53f27/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/collindrake/.gradle/caches/transforms-3/9c0f25974b96f3d5bb8d170177f53f27/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/collindrake/.gradle/caches/transforms-3/4f926294b703c64b871e04249abe9ab3/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/collindrake/.gradle/caches/transforms-3/4f926294b703c64b871e04249abe9ab3/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/d0e5b52ee3ae5363fe09b7036fb83cff/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/collindrake/.gradle/caches/transforms-3/d0e5b52ee3ae5363fe09b7036fb83cff/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/48a5545428e37ae3a146c76d658659bd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/48a5545428e37ae3a146c76d658659bd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/b2be4d206b8503716d8501fc5fda3278/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/b2be4d206b8503716d8501fc5fda3278/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/collindrake/.gradle/caches/transforms-3/cfbf16f3bae539c0bcd309ab133a58dd/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/collindrake/.gradle/caches/transforms-3/cfbf16f3bae539c0bcd309ab133a58dd/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/92059f70be704df472c521854bce2e81/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/92059f70be704df472c521854bce2e81/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/08e9ea772e4941e84293a2692a8a1f41/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/08e9ea772e4941e84293a2692a8a1f41/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/5aad2ef512a20cfa75886f8d0e5195d3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/5aad2ef512a20cfa75886f8d0e5195d3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/75fdd1a07bd6e30947651174cbae90a2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/75fdd1a07bd6e30947651174cbae90a2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/6502fa803ac645f07ced84e5f9616269/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/6502fa803ac645f07ced84e5f9616269/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/collindrake/.gradle/caches/transforms-3/6b5a46b6aff022e021b40309e80c0c3b/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/collindrake/.gradle/caches/transforms-3/6b5a46b6aff022e021b40309e80c0c3b/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/cc3edb4b457dc33f796f210bf32db336/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/cc3edb4b457dc33f796f210bf32db336/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/fdd0eac78a4d8e1168767b79a6829bd2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/fdd0eac78a4d8e1168767b79a6829bd2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/efda8f3fa7746edb278a4a27315aa9d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/efda8f3fa7746edb278a4a27315aa9d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/bd13f58c731e042c36517d5ff98455a7/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/bd13f58c731e042c36517d5ff98455a7/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/collindrake/.gradle/caches/transforms-3/de5f04557ee9eaa6e083436f6a2714b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/collindrake/.gradle/caches/transforms-3/de5f04557ee9eaa6e083436f6a2714b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/a84a3b7b02fc3990a182e609d2d10f76/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/a84a3b7b02fc3990a182e609d2d10f76/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/b1c42b4bf16d7f07f89fbd9b5b042d15/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/b1c42b4bf16d7f07f89fbd9b5b042d15/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/7dd61898777d6cbd9d883627c0ab973a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/7dd61898777d6cbd9d883627c0ab973a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/5a74a231bf03de950e8705c72caa07f5/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/5a74a231bf03de950e8705c72caa07f5/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/e3573e04a4fc82d784ba7d1b1ceabaee/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/e3573e04a4fc82d784ba7d1b1ceabaee/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/14a892abcca591a603cdd894f901008e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/14a892abcca591a603cdd894f901008e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/194e0220698603b0c96c6e082f1d7744/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/collindrake/.gradle/caches/transforms-3/194e0220698603b0c96c6e082f1d7744/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:11:5-14:63
+	android:targetSdkVersion
+		INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:16:5-59
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:16:19-57
+uses-permission#android.permission.INTERNET
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:18:5-66
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:20:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:21:5-64
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:21:22-62
+application
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:23:5-111:19
+INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:23:5-111:19
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/9ae31da45bd8f9a5486b92418be7ad02/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/9ae31da45bd8f9a5486b92418be7ad02/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/871176a25d6e5c8f54268f6e63001eb7/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/871176a25d6e5c8f54268f6e63001eb7/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:10:5-33:19
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:10:5-33:19
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/830b85b7f02714dc376b0ec81504077a/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/830b85b7f02714dc376b0ec81504077a/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:7:5-15:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/69e91b39d4280d9e54872d2f60a8b751/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/69e91b39d4280d9e54872d2f60a8b751/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/collindrake/.gradle/caches/transforms-3/b06f47e373c37bc461ef14dad2fc87be/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/collindrake/.gradle/caches/transforms-3/b06f47e373c37bc461ef14dad2fc87be/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/collindrake/.gradle/caches/transforms-3/266607879d4175c92f90d569a3422ce0/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/collindrake/.gradle/caches/transforms-3/266607879d4175c92f90d569a3422ce0/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/ac83150fe96da5e3a1dd630b372620b9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/ac83150fe96da5e3a1dd630b372620b9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.core:core:1.6.0] /Users/collindrake/.gradle/caches/transforms-3/6b5a46b6aff022e021b40309e80c0c3b/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/collindrake/.gradle/caches/transforms-3/6b5a46b6aff022e021b40309e80c0c3b/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/collindrake/.gradle/caches/transforms-3/de5f04557ee9eaa6e083436f6a2714b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/collindrake/.gradle/caches/transforms-3/de5f04557ee9eaa6e083436f6a2714b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/b1c42b4bf16d7f07f89fbd9b5b042d15/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/b1c42b4bf16d7f07f89fbd9b5b042d15/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/14a892abcca591a603cdd894f901008e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/14a892abcca591a603cdd894f901008e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/collindrake/.gradle/caches/transforms-3/6b5a46b6aff022e021b40309e80c0c3b/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:26:9-41
+	android:icon
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:25:9-44
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:27:9-47
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:24:9-61
+meta-data#com.google.android.gms.version
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:29:9-31:68
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/ac83150fe96da5e3a1dd630b372620b9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/ac83150fe96da5e3a1dd630b372620b9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:31:13-66
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:30:13-58
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:35:9-37:113
+	android:value
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:37:13-111
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:36:13-64
+activity#com.google.mlkit.vision.demo.EntryChoiceActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:39:9-47:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:40:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:44:17-68
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:45:27-74
+activity#com.google.mlkit.vision.demo.java.ChooserActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:49:9-52:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:50:13-49
+activity#com.google.mlkit.vision.demo.java.LivePreviewActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:54:9-58:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:56:13-37
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:55:13-53
+activity#com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:60:9-64:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:62:13-37
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:61:13-60
+activity#com.google.mlkit.vision.demo.java.CameraXSourceDemoActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:66:9-70:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:68:13-37
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:67:13-59
+activity#com.google.mlkit.vision.demo.java.StillImageActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:72:9-76:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:74:13-37
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:75:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:73:13-52
+activity#com.google.mlkit.vision.demo.kotlin.ChooserActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:78:9-81:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:80:13-37
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:79:13-51
+activity#com.google.mlkit.vision.demo.kotlin.LivePreviewActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:83:9-87:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:85:13-37
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:86:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:84:13-55
+activity#com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:89:9-93:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:91:13-37
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:92:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:90:13-62
+activity#com.google.mlkit.vision.demo.kotlin.CameraXSourceDemoActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:95:9-99:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:97:13-37
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:98:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:96:13-61
+activity#com.google.mlkit.vision.demo.kotlin.StillImageActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:101:9-105:20
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:103:13-37
+	android:theme
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:104:13-44
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:102:13-54
+activity#com.google.mlkit.vision.demo.preference.SettingsActivity
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:107:9-109:39
+	android:exported
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:109:13-37
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:108:13-56
+queries
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:112:5-116:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:113:9-115:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:114:13-73
+	android:name
+		ADDED from /Users/collindrake/Downloads/Boxship/app/src/main/AndroidManifest.xml:114:21-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:7:22-76
+uses-native-library
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:16:9-18:40
+	android:required
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:17:13-40
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:27:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/collindrake/.gradle/caches/transforms-3/6d6bd0bd80e33d5a0cceff22dc0d7a11/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:30:17-114
+service#com.google.mlkit.acceleration.internal.MlKitRemoteWorkerService
+ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:8:9-11:68
+	android:process
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:11:13-65
+	android:exported
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:10:13-37
+	android:name
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/d119d84079549d8bb905417d213f2e1a/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:9:13-91
+service#androidx.work.multiprocess.RemoteWorkManagerService
+ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/830b85b7f02714dc376b0ec81504077a/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/830b85b7f02714dc376b0ec81504077a/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/830b85b7f02714dc376b0ec81504077a/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:26:13-79
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/61dcf9147df97b3465ada5c8f3f6366d/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:15:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/collindrake/.gradle/caches/transforms-3/135ff83e5689936cb536bdbaf552f39e/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:12:17-133
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/collindrake/.gradle/caches/transforms-3/f57b5ca2af379c9d0f32c8fd663f8c28/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:12:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/bd14566f36ec90cc386cbdba0dcd2c64/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.mlkit.vision.segmentation.internal.SegmentationRegistrar
+ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/collindrake/.gradle/caches/transforms-3/ef7ed743a00d0ef93c22d33e070834d6/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:13:17-130
+meta-data#com.google.firebase.components:com.google.mlkit.vision.facemesh.internal.FaceMeshRegistrar
+ADDED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/collindrake/.gradle/caches/transforms-3/e31a789ac6bbbf9d95451c8fc74348b2/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:12:17-122
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/collindrake/.gradle/caches/transforms-3/0d972df2bb323c3c55df69ff0c5e27b7/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/collindrake/.gradle/caches/transforms-3/a5604c1c1e4420e6122c89e4b856f350/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/collindrake/.gradle/caches/transforms-3/9bdec09c25791b43c6c68c89544ed0bb/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/collindrake/.gradle/caches/transforms-3/8ee2fe509a8b43c8fd42696db3acf6dc/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/collindrake/.gradle/caches/transforms-3/464bd98ad37af3b6a47379b675db81af/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/collindrake/.gradle/caches/transforms-3/a8961cb14756a2e7ca316e6a45aabb30/transformed/jetified-common-18.9.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/collindrake/.gradle/caches/transforms-3/255dcf73f9546efa0bc46e69414dc609/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/b1c42b4bf16d7f07f89fbd9b5b042d15/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/collindrake/.gradle/caches/transforms-3/b1c42b4bf16d7f07f89fbd9b5b042d15/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/collindrake/.gradle/caches/transforms-3/c9f6c7ce17493d6fffe52260e5b86581/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/collindrake/.gradle/caches/transforms-3/484e7a060b5fdd3299e20b26fccfc7d0/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/collindrake/.gradle/caches/transforms-3/e462f9916fb8abb36bd8ef2063fba48b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/collindrake/.gradle/caches/transforms-3/0e6c44d8f2ad1ac30ccaebff951f5c5e/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/collindrake/.gradle/caches/transforms-3/d9df839bf1fdd713ea8b352beff89e15/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

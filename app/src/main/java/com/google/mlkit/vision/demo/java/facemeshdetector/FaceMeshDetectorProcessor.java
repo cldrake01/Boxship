@@ -18,7 +18,9 @@ package com.google.mlkit.vision.demo.java.facemeshdetector;
 
 import android.content.Context;
 import android.util.Log;
+
 import androidx.annotation.NonNull;
+
 import com.google.android.gms.tasks.Task;
 import com.google.android.odml.image.MlImage;
 import com.google.mlkit.vision.common.InputImage;
@@ -29,46 +31,49 @@ import com.google.mlkit.vision.facemesh.FaceMesh;
 import com.google.mlkit.vision.facemesh.FaceMeshDetection;
 import com.google.mlkit.vision.facemesh.FaceMeshDetector;
 import com.google.mlkit.vision.facemesh.FaceMeshDetectorOptions;
+
 import java.util.List;
 
-/** Selfie Face Detector Demo. */
+/**
+ * Selfie Face Detector Demo.
+ */
 public class FaceMeshDetectorProcessor extends VisionProcessorBase<List<FaceMesh>> {
 
-  private static final String TAG = "SelfieFaceProcessor";
+    private static final String TAG = "SelfieFaceProcessor";
 
-  private final FaceMeshDetector detector;
+    private final FaceMeshDetector detector;
 
-  public FaceMeshDetectorProcessor(Context context) {
-    super(context);
-    FaceMeshDetectorOptions.Builder optionsBuilder = new FaceMeshDetectorOptions.Builder();
-    if (PreferenceUtils.getFaceMeshUseCase(context) == FaceMeshDetectorOptions.BOUNDING_BOX_ONLY) {
-      optionsBuilder.setUseCase(FaceMeshDetectorOptions.BOUNDING_BOX_ONLY);
+    public FaceMeshDetectorProcessor(Context context) {
+        super(context);
+        FaceMeshDetectorOptions.Builder optionsBuilder = new FaceMeshDetectorOptions.Builder();
+        if (PreferenceUtils.getFaceMeshUseCase(context) == FaceMeshDetectorOptions.BOUNDING_BOX_ONLY) {
+            optionsBuilder.setUseCase(FaceMeshDetectorOptions.BOUNDING_BOX_ONLY);
+        }
+
+        detector = FaceMeshDetection.getClient(optionsBuilder.build());
     }
 
-    detector = FaceMeshDetection.getClient(optionsBuilder.build());
-  }
-
-  @Override
-  public void stop() {
-    super.stop();
-    detector.close();
-  }
-
-  @Override
-  protected Task<List<FaceMesh>> detectInImage(InputImage image) {
-    return detector.process(image);
-  }
-
-  @Override
-  protected void onSuccess(
-      @NonNull List<FaceMesh> faces, @NonNull GraphicOverlay graphicOverlay) {
-    for (FaceMesh face : faces) {
-      graphicOverlay.add(new FaceMeshGraphic(graphicOverlay, face));
+    @Override
+    public void stop() {
+        super.stop();
+        detector.close();
     }
-  }
 
-  @Override
-  protected void onFailure(@NonNull Exception e) {
-    Log.e(TAG, "Face detection failed " + e);
-  }
+    @Override
+    protected Task<List<FaceMesh>> detectInImage(InputImage image) {
+        return detector.process(image);
+    }
+
+    @Override
+    protected void onSuccess(
+            @NonNull List<FaceMesh> faces, @NonNull GraphicOverlay graphicOverlay) {
+        for (FaceMesh face : faces) {
+            graphicOverlay.add(new FaceMeshGraphic(graphicOverlay, face));
+        }
+    }
+
+    @Override
+    protected void onFailure(@NonNull Exception e) {
+        Log.e(TAG, "Face detection failed " + e);
+    }
 }

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.google.mlkit.vision.demo.app-mergeDebugResources-17:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/collindrake/.gradle/caches/transforms-3/e3be4c992582a51a50979f6e904750fe/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
