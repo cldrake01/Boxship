@@ -16,7 +16,10 @@
 
 package com.google.mlkit.vision.demo.kotlin
 
+import android.content.Context
 import android.content.Intent
+import android.hardware.camera2.CameraManager
+import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
@@ -29,6 +32,7 @@ import android.widget.ImageView
 import android.widget.Spinner
 import android.widget.Toast
 import android.widget.ToggleButton
+import androidx.annotation.RequiresApi
 import com.google.android.gms.common.annotation.KeepName
 import com.google.mlkit.common.model.LocalModel
 import com.google.mlkit.vision.barcode.ZoomSuggestionOptions.ZoomCallback
@@ -57,10 +61,14 @@ import java.io.IOException
 class LivePreviewActivity :
     AppCompatActivity(), OnItemSelectedListener, CompoundButton.OnCheckedChangeListener {
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
+    private var cameraManager: CameraManager? =
+        getSystemService(Context.CAMERA_SERVICE) as CameraManager
     private var cameraSource: CameraSource? = null
     private var preview: CameraSourcePreview? = null
     private var graphicOverlay: GraphicOverlay? = null
     private var selectedModel = OBJECT_DETECTION
+    private var flashLightOn = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -131,6 +139,19 @@ class LivePreviewActivity :
 
     override fun onNothingSelected(parent: AdapterView<*>?) {
         // Do nothing.
+    }
+
+    @RequiresApi(Build.VERSION_CODES.M)
+    fun switchFlashlight() {
+        flashLightOn = !flashLightOn
+        if (cameraManager != null) {
+            try {
+                val cameraId = cameraManager!!.cameraIdList[0]
+                cameraManager!!.setTorchMode(cameraId, flashLightOn)
+            } catch (e: Exception) {
+                Log.e(TAG, e.toString())
+            }
+        }
     }
 
     override fun onCheckedChanged(buttonView: CompoundButton, isChecked: Boolean) {

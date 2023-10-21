@@ -160,5 +160,8 @@
     <string name="pref_group_title_face_mesh" translatable="false">Face Mesh Detection</string>
     <string name="pref_title_face_mesh_use_case" translatable="false">Use Case</string>
     <string name="pref_key_face_mesh_use_case" translatable="false">face_mesh_use_case</string>
+    <string name="turn_on_off_camera_led_flashlight_android">Turn On/Off Camera LED/ Flashlight Android</string>
+    <string name="turn_on">Turn On</string>
+    <string name="turn_off">Turn Off</string>
 
 </resources>
